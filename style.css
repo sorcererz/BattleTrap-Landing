@@ -1,0 +1,166 @@
+/* Import Police */
+
+/*@font-face {
+    font-family: "Road Rage";
+    src :url("../police/road_rage/Road_Rage.otf");
+  }*/
+
+  @font-face {
+    font-family: "Pixelmania";
+    src: url("../police/pixelmania/Pixelmania.ttf");
+}
+
+/*  @font-face {
+    font-family: "Pixeled";
+    src: url("../police/pixeled/Pixeled.ttf");
+}*/
+
+  @font-face {
+    font-family: "Pixellari";
+    src: url("../police/pixellari/Pixellari.ttf");
+}
+
+/*-------------------------------------------- */
+
+/* Style primaire */
+  body {
+    background-color: rgb(15, 15, 15);
+    font-family: "Pixellari", sans-serif;
+  }
+
+  h1 {
+    color: #FE00FF !important;
+    font-size: 50px !important;
+    font-family: 'Pixelmania', serif;
+  }
+
+  h2 {
+    color: pink ;
+    font-size: 30px;
+    font-family: 'Pixelmania', serif;
+  }
+
+  .pixelbutton {
+    display: block;
+    position: relative;
+    width: 450px;
+    height: 120px;
+    color: white;
+    font-size: 28px;
+    text-transform: uppercase;
+    background-color: #d873ac;
+    border: none;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 24px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: 'Pixelmania', serif;
+    outline: none;
+  }
+
+  .pixelbutton a {
+    color: white;
+    text-decoration: none;
+    padding: 70px 110px;
+  }
+
+  .pixelbutton::after {
+    content: "";
+    position: absolute;
+    width: 450px;
+    height: 120px;
+    top: 12px;
+    left: 0;
+    background-color: #c35091;
+    border-radius: 24px;
+    z-index: -1;
+  }
+
+  .pixelbutton:hover {
+    background-color: #d269a4;
+  }
+
+  .pixelbutton:active {
+    top: 10px;
+  }
+
+  .pixelbutton:active::after {
+    top: 2px;
+  }
+
+  .pixeltext{
+    margin-top: 43px;
+    font-size: 28px;
+    line-height: 25px;
+    font-family: "Pixellari", sans-serif;
+    text-align: justify-all;
+    color: pink !important;
+  }
+/* ------------------------------------------- */
+
+.members {
+    padding: 30px 0;
+}
+.members .member {
+    border: 5px solid pink;;
+    background-color: #1a1a1a;
+}
+.card-body {
+    border-top: 5px solid pink;;
+    padding: 25px 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.hover {
+    margin-top: -70px;
+    background-color: pink;
+    margin-bottom: 70px;
+  }
+.card-body p {
+    color: #ffa400;
+    margin-bottom: 12px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+.card-body ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 6px;
+}
+.card-body ul li a {
+    color: #000000;
+    font-weight: 300;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+}
+.card-body ul li a i:hover {
+    color: pink;
+    transition: ease-in 0.25s;
+}
+
+h4{
+  color: pink;
+}
+
+.hover h4{
+  color: #1a1a1a;
+}
+
+.hover ul li a i{
+  color: #1a1a1a;
+}
+
+.rules img{
+  height: 100px;
+}
+.rules p{
+  margin-top: 10px;
+}
